@@ -1,0 +1,920 @@
+* {
+    /* outline: solid 2px red; */
+}
+
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FADBD2;
+    height: 100%;
+}
+
+.navbar h1 {
+    /* margin-left: 200px; */
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+.buttondiv {
+    /* margin-right: 200px; */
+}
+
+.button1 {
+    background-color: coral
+}
+
+.button2 {
+    background-color: #FADBD2;
+}
+.nav{
+
+}
+
+.navbar a {
+    font-size: 1.1vw;
+    margin: 1.3vw;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbar a::before {
+    position: absolute;
+    height:0.2vw;
+    top: 2.5vw;
+    transition: 00.3s;
+
+    background-color: black;
+    content: "";
+    width: 0%;
+}
+
+.navbar a:hover:before {
+    width: 100%;
+}
+
+.navbar nav {
+    /* margin-left: -100px; */
+}
+
+.navbar button {
+    padding: 0.7vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+    border: none;
+    transition: 00.3s;
+    border-radius: 5px;
+}
+
+.navbar button:active {
+    transform: scale(0.95);
+}
+
+.navbar button:hover {
+    box-shadow: 0 0 2px;
+}
+/* /////////////////////////////////////////////////////// */
+
+.header {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #FADBD2;
+    height: 55vw;
+
+}
+
+.leftside {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 15%;
+    width: 40%;
+
+}
+
+.leftside h3 {
+    font-size: 2.5vw;
+}
+
+.leftside h1 {
+    font-size: 4vw;
+    margin-top: 5vw;
+}
+
+.leftsidebutton button {
+    padding: 0.7vw;
+    width: 10vw;
+    border: none;
+    font-weight: 600;
+    font-size: 0.8vw;
+    border-radius: 5px;
+    transition: 00.3s;
+    margin-top: 4vw;
+    /* margin: 0 10px; */
+}
+
+.leftsidebutton button:hover {
+    box-shadow: 0 0 2px;
+}
+
+.leftsidebutton button:active {
+    transform: scale(0.95);
+}
+
+.leftsidebutton1 {
+    background-color: #FADBD2;
+    color: black;
+    box-shadow: 0 0 2px;
+}
+
+.leftsidebutton2 {
+    background-color: coral;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.bottomnavbar {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    background-color: #FADBD2;
+    align-items: center;
+}
+
+.bottomnavbar section {
+    display: flex;
+    margin: 5vw;
+    gap: 2vw;
+    align-items: center;
+
+}
+
+.bottomnavbar h2 {
+    font-size: 2.5vw
+}
+
+.bottomnavbar section a {
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/* /* //////////////////////////////////////////////////////// */
+
+.firstmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    height: 60vw;
+}
+
+.firstmain img {
+    height: 25vw;
+    margin-top: 7vw;
+    border: none;
+    transition: 00.3s;
+    border-radius: 5px;
+
+}
+
+.firstmain img:hover {
+    box-shadow: 0 0 5px;
+}
+
+.maindiv {
+    height: 30vw;
+    margin-top: 12vw;
+}
+
+.maindiv h3 {
+    font-size: 1.5vw;
+    margin-top: 0;
+}
+
+.maindiv h2 {
+    font-size: 2.5vw;
+    margin-top: 0;
+}
+
+.maindiv button {
+    padding: 0.7vw;
+    width: 35%;
+    background-color: coral;
+    font-size: 0.8vw;
+    transition: 00.3s;
+    font-weight: 600;
+    
+    border-radius: 5px;
+    border: none;
+}
+
+.maindiv button:hover {
+    box-shadow: 0 0 2px;
+}
+
+.maindiv button:active {
+    transform: scale(0.95);
+}
+
+.maindiv ul {
+    font-size: 1vw;
+    font-weight: 600;
+    line-height: 2.5vw;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.seconddiv {}
+
+.seconddiv h3 {
+    /* margin-top: 2vw; */
+    margin-left: 17vw;
+    font-size: 1.5vw;;
+}
+
+.seconddiv h2 {
+
+    font-size: 2.5vw;
+}
+
+.seconddivsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35vw;
+}
+
+.seconddivsection button {
+    padding: 0.7vw;
+    width: 12%;
+    outline: 1px solid red;
+    color: red;
+    border: none;
+    background-color: white;
+    font-size: 0.8vw;
+    font-weight: bold;
+}
+
+.bigdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    margin: auto;
+
+}
+
+.divs img {
+    height: 15vw;
+    border-radius: 4px;
+    border: none;
+
+
+}
+
+.divs {
+    /* background-color: aquamarine; */
+    /* height: 600px; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+    margin: 0 1vw;
+    box-shadow: 0 0 5px grey;
+    border-radius: 4px;
+    border: none;
+    width: 33vw   ;
+
+
+
+}
+
+.divwords h3 {
+    margin-left: 0;
+    font-size: 0.8vw;
+    background-color: rgb(14, 211, 14);
+    border-radius: 3px;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    width: 50%;
+}
+
+.divwords p {
+    font-size: 0.9vw;
+    font-weight: bold;
+}
+
+.divwordsp {
+    font-size: 0.9vw;
+    color: red;
+}
+
+.divwordsspan {
+    color: rgb(94, 94, 94);
+}
+
+.divwords {
+    line-height: 1.6vw;
+    padding: 0.5vw 2.5vw 0.5vw 1vw;
+
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+.ourbenefitsdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5vw;
+}
+
+.ourbenefits nav {
+    text-align: center;
+}
+
+.ourbenefits a {
+
+    margin: 0 6vw;
+    font-size: 1vw;
+    outline: none;
+    transition: 00.3s;
+    border: none;
+    color: rgb(94, 94, 94);
+    padding: 0.3vw 2vw;
+    text-decoration: none;
+}
+
+.ourbenefits a:hover {
+    color: red;
+    outline: solid 1px red;
+    border-radius: 3px;
+
+}
+
+.ourbenefits h4 {
+    text-align: center;
+    font-size: 1.1vw;
+    
+}
+
+.ourbenefits h2 {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.ourbenefitsdivwords {
+    height: 30vw;
+    display: flex;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ourbenefitsdivwords h3 {
+    margin-left: -16vw;
+    font-size: 1.5vw;
+}
+
+.ourbenefitsdivwords p {
+    font-size: 1vw;
+    line-height: 1.6vw;
+    width: 90%;
+}
+
+.ourbenefitsdiv img {
+    height: 30vw;;
+    width: 35vw;
+    margin-top: 5vw;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+.our_events {
+    padding: 1vw;
+    background-color: #FADBD2;
+    margin: auto;
+}
+
+.our_events h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.our_events h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1vw
+    /* margin-top:70px; */
+}
+
+.our_events_big_cont {
+    /* background-color:; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+    margin-top: 4vw;
+    flex-direction: column;
+}
+
+.our_events_small_conts {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 7vw;
+    align-items: center;
+    padding: 0.5vw 2vw;
+    gap: 2vw;
+}
+
+.our_events_small_conts button {
+    padding: 0.7vw;
+    width: 8vw;
+    color: red;
+    outline: 1px solid red;
+    border-radius: 3px;
+    font-size: 0.8vw;
+    margin-top: -1vw;
+    font-weight: 550;
+    background-color: white;
+    letter-spacing: 0.5px;
+    border: none;
+    transition: 00.3s;
+}
+
+.our_events_small_conts button:hover {
+    background-color: red;
+    color: white;
+    outline: 1px solid white;
+
+}
+
+.our_events_small_conts button:active {
+    transform: scale(0.95);
+}
+
+.august_side {
+    line-height: 0.1vw;
+
+}
+
+.our_events_words {
+    line-height: 0.1vw;
+
+}
+
+.our_events_small_conts p {
+    font-size: 2.7vw;
+    color: red;
+    font-weight: 700;
+}
+
+.our_events_small_conts h4 {
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+
+.our_events_small_conts h5 {
+    font-size: 0.8vw;
+    color: rgb(71, 69, 69);
+}
+
+.bottom_div_our_events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vw;
+    margin-top: 20px;
+}
+
+.bottom_div_our_events h3 {
+    font-size: 1.5vw;
+}
+
+.bottom_div_our_events button {
+    padding: 0.7vw;
+    width: 10vw;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    font-size: 0.8vw;
+    font-weight: 550;
+    transition: 00.3s;
+    color: white;
+}
+
+.bottom_div_our_events button:hover {
+    background-color: white;
+    outline: solid 1px red;
+    color: red;
+}
+
+.bottom_div_our_events button:active {
+    transform: scale(0.95);
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+.big_certificate_div img {
+    height: 25vw;
+    width: 50%;
+}
+
+.main_certificate_div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    margin: auto;
+    height: 25vw;
+}
+
+.big_certificate_div {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    z-index: 10;
+    top: 5vw;
+    height: 25vw;
+
+}
+
+.big_certificate_div h4 {
+    font-size: 1.1vw;
+}
+
+.big_certificate_div h3 {
+    font-size: 1.5vw;
+    width: 75%;
+}
+
+.big_certificate_div p {
+    font-size: 1.1vw;
+    width: 75%;
+    padding: 1vw;
+    line-height: 2vw;
+    color: rgb(100, 98, 98);
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+.img_div img{
+    height: 100%;
+    width: 100%;
+    
+}
+.main_team_div{
+    /* background-color: aquamarine; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+}
+.big_team_div{
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: start; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* width: 94%; */
+    /* background-color: aqua; */
+    margin-top: 10vw;
+    /* flex-wrap: wrap; */
+}
+.big_team_div h4{
+    font-size: 1.1vw;
+    margin-top: 0;
+}
+.big_team_div h3{
+    font-size: 1.5vw;
+    margin-top: 5px;
+}
+
+
+
+.imgs_div{
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    height: 100%;
+    margin-top: 1vw;
+    text-align: center;
+
+}
+.img_div{
+    /* background-color: cornflowerblue; */
+    height: 90%;
+    /* background-color: blue; */
+    ;
+    
+}
+.imgs_div h4{
+font-size: 1.1vw;
+margin-top: 0.5vw;
+}
+.imgs_div h5{
+font-size:1vw;
+color: rgb(100, 98, 98);;
+margin-top: -10px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+
+.testimonials_img img{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+  
+}
+.testimonials_img{
+    display: flex;
+    margin-left:-38vw;
+    gap: 1vw;
+}
+.testimonials_img h5{
+    font-size: 0.8vw;
+}
+.testimonials h4 {
+    width: 100%;
+    font-size: 1.1vw;
+    text-align: center;
+    margin-top: 0;
+
+}
+.testimonials h3{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5vw;
+}
+.bigg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    height: 40vw;
+}
+
+.testimonials{
+    /* display: flex; 
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    justify-content: center;   */
+    /* margin-top: -10px; */
+    background-color:aliceblue;
+}
+.testimonials_small p{
+    font-size: 1vw;
+}
+.testimonials_small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 4vw;
+    margin-top: 4vw;
+    width: 46vw;
+    flex-direction: column;
+    background-color: white;
+   box-shadow: 0 0 1px;
+
+}
+/* //////////////////////////////////////////////////
+ */
+ .our_blog_img img{
+    height:14vw;
+    width: 20vw;
+ }
+ .our_blog_big h3{
+    font-size: 1.5vw;
+ }
+ .our_blog_big h4{
+    font-size: 1.1vw;
+ }
+
+ .our_blog_big button{
+    padding: 0.7vw;
+ width: 10vw;
+ background-color: red;
+ border-radius: 3px;
+ border: none;
+ font-size: 0.8vw;
+ font-weight: 550;
+ transition: 00.3s;
+ color: white;
+}
+
+.our_blog_big  button:hover {
+ background-color: white;
+ outline: solid 1px red;
+ color: red;
+}
+
+.our_blog_big button:active {
+ transform: scale(0.95);
+}
+ .our_blog{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    padding: 1vw;
+ }
+ .our_blog_big{
+    background-color: white;
+    width: 100%;
+    height: 50vw;;
+     }
+     .our_blog_imgs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: aquamarine; */
+        height: 27vw;
+        margin-top: 4vw;
+        gap: 1.5vw;
+     }
+.our_blog_img{
+    background-color:white;
+    width: 20vw;
+    height: 26vw;
+}
+.our_blog_img h4{
+    margin-top: -0.8vw;
+}
+.our_blog_img h5{
+    color: rgb(71, 69, 69);
+    font-size: 0.8vw;
+    
+}
+.our_blog_img p{
+    color: rgb(71, 69, 69);
+    margin-top: -0.5vw;
+    font-size: 0.9vw;
+
+}
+.nav{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 2.5vw;
+ margin-top: 0;
+    gap: 30vw;
+}
+/* ////////////////////////////////////////////////////// */
+.createx_school{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FADBD2;
+    flex-direction: column;
+    margin: auto;
+    padding: 1vw;
+    height: 20vw;
+}
+
+
+.createx_school h4{
+    font-size: 1.1vw;
+}
+.cr_1{
+    font-size: 2vw;
+    margin-top: 0;
+}
+.subscribe{
+    /* background-color: aqua; */
+    margin-top: 1.5vw;
+    
+
+}
+.cr_h3{
+    margin-top: -1vw;
+    font-size: 2vw;
+}
+.subscribe button{
+    padding: 0.7vw;
+ width: 10vw;
+ background-color: red;
+ border-radius: 3px;
+ border: none;
+ font-size: 0.8vw;
+ font-weight: 550;
+ transition: 00.3s;
+ color: white;
+}
+
+.subscribe  button:hover {
+ background-color: white;
+ outline: solid 1px red;
+ color: red;
+}
+
+.subscribe button:active {
+ transform: scale(0.95);
+}
+.subscribe input{
+    width: 20vw;
+    padding: 0.7vw;
+    font-size: 0.8vw;
+    margin: 0 1vw;
+    border: none;
+
+}
+/* ////////////////////////////////////// */
+article{
+    background-color:rgb(18, 14, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+color:   rgb(207, 200, 200);
+   height: 25vw;
+    margin: auto;
+    
+
+}
+article a{
+    font-size: 0.8vw;
+    color: rgb(207, 200, 200); 
+
+    text-decoration: none;
+    line-height: 1.6vw;
+   
+}
+.art_big_div{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content:center ;
+    /* align-items: center; */
+    gap: 6vw;
+  
+
+}
+.art_div1{
+    /* background-color: rgb(255, 0, 72); */
+    width:20vw;
+    font-size: 0.8vw;
+}
+.art_divs{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    height: 12vw;
+
+
+}
+.art_big_div h4{
+    font-size: 1vw;
+    color: white;
+}
+.art_big_div h5{
+    font-size: 0.7vw;
+    color: rgb(207, 200, 200);
+}
+.art_big_div h3{
+    font-size: 1.5vw;
+    color: white;
+}
+.art_divsss input{
+    padding: 0.7vw;
+    width: 15vw;
+    font-size: 0.8vw;
+    border: none;
+    background-color:rgb(18, 14, 40);
+    box-shadow: 0 0 1px;
+   
+    color: white;
+}
+.art_divsss ::placeholder{
+    color: rgb(207, 200, 200);
+    font-size: 0.8vw;
+}
+
+.art_divsss{
+    width: 17vw;
+}
+.art_divsss h5{
+    margin-top: 0.5vw;
+}
+
