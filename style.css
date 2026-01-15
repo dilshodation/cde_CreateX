@@ -15,12 +15,12 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #FADBD2;
-    height: 100%;
+    height: 95px;
 }
 
 .navbar h1 {
-    /* margin-left: 200px; */
-    font-size: 2.5vw;
+
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -40,8 +40,8 @@ body {
 }
 
 .navbar a {
-    font-size: 1.1vw;
-    margin: 1.3vw;
+    font-size: 17px;
+    margin: 15px;
     color: black;
     text-decoration: none;
     font-weight: 600;
@@ -50,8 +50,8 @@ body {
 
 .navbar a::before {
     position: absolute;
-    height:0.2vw;
-    top: 2.5vw;
+    height:3px;
+    top: 30px;
     transition: 00.3s;
 
     background-color: black;
@@ -68,8 +68,8 @@ body {
 }
 
 .navbar button {
-    padding: 0.7vw;
-    font-size: 0.8vw;
+    padding: 10px;
+    font-size: 15px;
     font-weight: 600;
     border: none;
     transition: 00.3s;
@@ -430,7 +430,9 @@ body {
     margin-top: 4vw;
     flex-direction: column;
 }
+.our_events_words{
 
+}
 .our_events_small_conts {
     background-color: white;
     display: flex;
@@ -438,7 +440,7 @@ body {
     align-items: center;
     border-radius: 5px;
     height: 7vw;
-    align-items: center;
+    /* width: 50%; */
     padding: 0.5vw 2vw;
     gap: 2vw;
 }
@@ -611,7 +613,7 @@ body {
 
 
 .imgs_div{
-    background-color: violet;
+    /* background-color: violet; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -850,7 +852,7 @@ article{
     align-items: center;
     padding: 1vw;
 color:   rgb(207, 200, 200);
-   height: 100%;
+   height: 16vw;
     margin: auto;
     
 
@@ -881,7 +883,7 @@ article a{
     /* background-color: cornflowerblue; */
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 12vw;
     /* background-color: aqua; */
 
 
@@ -921,21 +923,46 @@ article a{
 }
 
 /* ///////////////////////////////// */
-
-@media screen and (min-width: 370px) {
- .navbar h1{
-    font-size: 4vw;
- }
-    .navbar{
-        width: 100%;
-
+@media screen and (max-width: 1025px) {
+    .leftsidebutton button {
+        width: 15vw;
+        font-size: 1.5vw;
     }
-    .navbar nav a{
-        font-size: 2vw;
+}
+@media screen and (max-width: 768px) {
+    .navbar h1{
+        font-size:3vw ;
+    }
+    .navbar a{
+        font-size: 1.6vw;
+        margin: 10px;
     }
     .navbar button{
-        padding: 2vw;
-        font-size: 1.4vw;
+        font-size: 1.5vw;
+        padding: 8px;
+    }
+    .navbar{
+        height: 60px;;
+    }
+}
+@media screen and (max-width:426px) {
+    .navbar h1{
+font-size: 3.5vw
+    }
+    .navbar a{
+        margin: 5px;
+        font-size: 1.6vw;
+    }
+    .navbar button{
+        font-size: 1.7vw;
+        padding: 4px;
+    
+    }
+    .button1{
+        width: 50px
+    }
+    .button2{
+        width: 50px;
     }
     
 }
