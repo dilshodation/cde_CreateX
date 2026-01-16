@@ -1,5 +1,5 @@
 * {
-    /* outline: solid 2px red; */
+    outline: solid 1px red;
 }
 
 
@@ -1041,5 +1041,26 @@ article a {
     }
     .button2{
         width: 40px;
+    }
+}
+
+@media screen and (max-width: 284px) {
+    .navbar h1{
+        font-size: 8px;
+    }
+    .navbar a{
+        margin: 3px;
+        font-size: 5px;
+    }
+    .navbar button{
+        font-size: 4px;
+        padding: 3px;
+    }
+    .button1{
+        width: 35px;
+        
+    }
+    .button2{
+        width: 35px;
     }
 }
