@@ -1,5 +1,5 @@
 * {
-    outline: solid 2px red;
+    /* outline: solid 2px red; */
 }
 
 
@@ -1022,7 +1022,7 @@ article a {
     }
 
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
     .navbar h1{
         font-size: 14px;
         
