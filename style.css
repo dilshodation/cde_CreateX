@@ -1022,3 +1022,24 @@ article a {
     }
 
 }
+@media screen and (max-width: 375px){
+    .navbar h1{
+        font-size: 14px;
+        
+    }
+    .navbar a{
+        font-size: 6px;
+    }
+    .navbar button{
+        font-size: 6px;
+        padding: 3.5px;
+
+    }
+    .button1{
+        width: 40px;
+
+    }
+    .button2{
+        width: 40px;
+    }
+}
