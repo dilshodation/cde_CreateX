@@ -999,26 +999,26 @@ article a {
 
 @media screen and (max-width:426px) {
     .navbar h1 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .navbar a {
-        margin: 4px;
-        font-size: 8px;
+        margin: 3px;
+        font-size: 7px;
     }
 
     .navbar button {
-        font-size: 7px;
-        padding: 4px;
+        font-size: 6px;
+        padding: 3.5px;
 
     }
 
     .button1 {
-        width: 50px
+        width: 45px
     }
 
     .button2 {
-        width: 50px;
+        width: 45px;
     }
 
 }
