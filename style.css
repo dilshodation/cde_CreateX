@@ -1020,6 +1020,15 @@ article a {
     .button2 {
         width: 45px;
     }
+    button.leftsidebutton1{
+        padding: 3px;
+        font-size: 6px;
+    }
+    button.leftsidebutton2{
+        padding: 3px;
+        font-size: 6px;
+    }
+
 
 }
 @media screen and (max-width: 376px){
