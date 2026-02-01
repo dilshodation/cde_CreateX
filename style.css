@@ -158,7 +158,7 @@ body {
     margin: 55px;
     gap: 20px;
     align-items: center;
-    
+
 
 }
 
@@ -630,9 +630,9 @@ body {
 }
 
 .img_div {
-    
+
     height: 100%;
-    
+
 
 }
 
@@ -691,7 +691,7 @@ body {
 }
 
 .testimonials {
-    
+
     background-color: aliceblue;
 }
 
@@ -775,10 +775,10 @@ body {
 }
 
 .our_blog_img {
-    background-color:white;
+    background-color: white;
     width: 300px;
     height: 390px;
-    
+
 }
 
 .our_blog_img h4 {
@@ -800,7 +800,7 @@ body {
 }
 
 .nav {
-    background-color:white;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -968,6 +968,19 @@ article a {
 
         font-size: 14px;
     }
+
+    .maindiv {
+        margin: 5px;
+    }
+
+    .firstmain img {
+        margin: 5px;
+    }
+
+    .firstmain ul {
+        line-height: 30px;
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -987,10 +1000,34 @@ article a {
 
     .navbar {
         height: 60px;
-        ;
     }
-    .bottomnavbar section{
+
+    .bottomnavbar section {
         margin: 35px;
+    }
+
+    .firstmain {
+        height: 500px;
+    }
+
+    .firstmain ul {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .firstmain img {
+        height: 350px;
+        margin-left: 5px;
+    }
+
+    .firstmain button {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .maindiv {
+        height: 420px;
+        margin-right: 5px
     }
 }
 
@@ -998,10 +1035,12 @@ article a {
     .navbar h1 {
         font-size: 15px;
     }
-    .header h3{
-font-size: 15px;
+
+    .header h3 {
+        font-size: 15px;
     }
-    .header h1{
+
+    .header h1 {
         font-size: 25px;
     }
 
@@ -1014,10 +1053,12 @@ font-size: 15px;
         font-size: 6px;
         padding: 3.5px;
     }
-    .header{
+
+    .header {
         height: 350px;
     }
-    .leftside{
+
+    .leftside {
         height: 205px;
         outline: solid purple;
     }
@@ -1029,96 +1070,130 @@ font-size: 15px;
     .button2 {
         width: 45px;
     }
-.leftsidebutton{
-    margin-top: -20px;
-}
+
+    .leftsidebutton {
+        margin-top: -20px;
+    }
+
     button.leftsidebutton1 {
         padding: 3px;
         font-size: 6px;
-        
+
     }
 
     button.leftsidebutton2 {
         padding: 3px;
         font-size: 6px;
     }
-    .bottomnavbar section{
+
+    .bottomnavbar section {
         margin: 10px;
         gap: 10px;
-        
+
     }
-    .bottomnavbar section a{
+
+    .bottomnavbar section a {
         font-size: 6px;
-    }    
-    .bottomnavbar section h2{
+    }
+
+    .bottomnavbar section h2 {
         font-size: 13px;
     }
+
     .firstmain {
+        gap: 5px;
+        height: 230px;
+    }
+
+    .firstmain img {
+        height: 180px;
+        margin: 5px;
+    }
+
+    .maindiv {
+        height: 220px;
+        margin: 5px;
+    }
+
+    .maindiv h3 {
+        font-size: 15px;
+    }
+
+    .maindiv h2 {
+        font-size: 20px;
+    }
+
+    .maindiv button {
+        padding: 3px;
+        font-size: 6px;
+    }
+
+
+    .maindiv ul {
+        font-size: 7px;
+        line-height: 10px;
+
+    }
+    .seconddiv h3{
+        font-size: 15px;
+        
+    }
+     .seconddiv h3{
+        font-size: 15px;
+margin-left: 20px;
+        /* margin-right: 200px; */
+    }
+    .divs img{
+        height: 135px;
+        width: 115px;
+    }
+    .divs{
+        gap: 5px;
+        width: 350px;
+        margin:0 5px 0 5px;
+        height: 150px;
+         /* background-color: aqua; */
+    }
+    .divwords{
+        height:130px ;
+        width: 70%;
+    }
+    .divwords h3{
+        font-size: 7px;
+        width: 100%;
+        margin: 0px;
+        padding: 2px;
+        line-height: 10px;
+    }
+    .divwords p{
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .divwordsp{
+        /* font-size: 1px; */
+    }
+    .bigdiv{
+        /* background-color: burlywood; */
+        margin: 0;
+        /* width: 8/0%; */
+
+    }
+    .seconddiv h2 {
+
+        font-size: 20px;
+    }
+    
+    .seconddivsection {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5px;
-        height: 270px;
+        gap: 180px;
     }
     
-    .firstmain img {
-        height: 180px;
-        margin-top: 0px;
-        border: none;
-        transition: 00.3s;
-        border-radius: 5px;
-        margin: 5px;
-    
-    }
-    
-    .firstmain img:hover {
-        box-shadow: 0 0 5px;
-    }
-    
-    .maindiv {
-        height: 220px;
-        margin-top: 0px;
-        /* background-color: aqua; */
-        margin: 5px;
-    }
-    
-    .maindiv h3 {
-        font-size: 15px;
-        margin-top: 0;
-    }
-    
-    .maindiv h2 {
-        font-size: 20px;
-        margin-top: 0;
-    }
-    
-    .maindiv button {
+    .seconddivsection button {
         padding: 3px;
-        width: 35%;
-        background-color: coral;
+        width: 12%;
         font-size: 6px;
-        transition: 00.3s;
-        font-weight: 600;
-    
-        border-radius: 5px;
-        border: none;
     }
-    
-    .maindiv button:hover {
-        box-shadow: 0 0 2px;
-    }
-    
-    .maindiv button:active {
-        transform: scale(0.95);
-    }
-    
-    .maindiv ul {
-        font-size: 7px;
-        font-weight: 600;
-        line-height: 10px;
-        background-color: aquamarine;
-    }
-    
-
 
 }
