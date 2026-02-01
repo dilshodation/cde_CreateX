@@ -999,7 +999,7 @@ article a {
         font-size: 15px;
     }
     .header h3{
-font-size: 20px;
+font-size: 15px;
     }
     .header h1{
         font-size: 25px;
@@ -1053,57 +1053,72 @@ font-size: 20px;
     .bottomnavbar section h2{
         font-size: 13px;
     }
-
-
-}
-
-/* @media screen and (max-width: 376px) {
-    .navbar h1 {
-        font-size: 14px;
-
+    .firstmain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        height: 270px;
     }
-
-    .navbar a {
-        font-size: 6px;
+    
+    .firstmain img {
+        height: 180px;
+        margin-top: 0px;
+        border: none;
+        transition: 00.3s;
+        border-radius: 5px;
+        margin: 5px;
+    
     }
-
-    .navbar button {
-        font-size: 5px;
-        padding: 3.5px;
-
+    
+    .firstmain img:hover {
+        box-shadow: 0 0 5px;
     }
-
-    .button1 {
-        width: 40px;
-
+    
+    .maindiv {
+        height: 220px;
+        margin-top: 0px;
+        /* background-color: aqua; */
+        margin: 5px;
     }
-
-    .button2 {
-        width: 40px;
+    
+    .maindiv h3 {
+        font-size: 15px;
+        margin-top: 0;
     }
-}
-
-@media screen and (max-width: 284px) {
-    .navbar h1 {
-        font-size: 8px;
+    
+    .maindiv h2 {
+        font-size: 20px;
+        margin-top: 0;
     }
-
-    .navbar a {
-        margin: 3px;
-        font-size: 5px;
-    }
-
-    .navbar button {
-        font-size: 4px;
+    
+    .maindiv button {
         padding: 3px;
+        width: 35%;
+        background-color: coral;
+        font-size: 6px;
+        transition: 00.3s;
+        font-weight: 600;
+    
+        border-radius: 5px;
+        border: none;
     }
-
-    .button1 {
-        width: 35px;
-
+    
+    .maindiv button:hover {
+        box-shadow: 0 0 2px;
     }
-
-    .button2 {
-        width: 35px;
+    
+    .maindiv button:active {
+        transform: scale(0.95);
     }
-} */
+    
+    .maindiv ul {
+        font-size: 7px;
+        font-weight: 600;
+        line-height: 10px;
+        background-color: aquamarine;
+    }
+    
+
+
+}
