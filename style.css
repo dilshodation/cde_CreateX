@@ -1385,15 +1385,15 @@ gap: 10px;
 }
 .createx_school input{
     padding: 7px;
-    width: 200px;
+    width: 150px;
 }
 .subscribe{
     padding: 5px
 }
 .subscribe button{
-    padding: 4px;
+    padding: 3px;
     font-size: 6px;
-    width: 120px;
+    width: 100px;
 }
 article{
     height: 420px;
@@ -1405,7 +1405,7 @@ article a {
 
 }
 .art_big_div{
-    gap: 20px;
+    gap: 14px;
 }
 .art_div1{
     width: 150px;
@@ -1422,6 +1422,9 @@ article a {
 }
 .art_divsss input{
     padding: 4px;
-    width: 70px;
+    width: 60px;
+}
+.art_divsss {
+    width: 100%;
 }
 }
