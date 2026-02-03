@@ -1209,5 +1209,71 @@ article a {
         width: 12%;
         font-size: 7px;
     }
+.ourbenefits nav a{
+    font-size: 7px;
+    margin: 5px;
+}
+.ourbenefits nav{
+    display: flex;
+
+}
+.ourbenefitsdiv{
+    
+gap: 10px;
+}
+.ourbenefitsdivwords h3{
+    margin-left: 0;
+    font-size: 13px;
+}
+
+.ourbenefitsdivwords p{
+    font-size: 10px;
+    line-height: 10px;
+    width: 80%;
+    margin-top: 5px;
+}
+.ourbenefitsdiv img{
+    height: 200px;
+    margin-top: -4px;
+    width: 30%;
+}
+.our_events h4{
+    font-size: 10px;
+}
+.our_events h2{
+    font-size: 16px;
+}
+.our_events p{
+    font-size: 20px;
+}
+.august_side{
+    line-height: 10px;
+}
+
+.our_events_small_conts{
+    gap: 15px;
+    height: 90px;
+}
+.our_events_words{
+    line-height: 10px;
+}
+
+.our_events_small_conts button{
+    padding: 10px;
+    font-size: 9px;
+
+}
+.bottom_div_our_events{
+    gap: 50px;
+}
+.bottom_div_our_events h3{
+    font-size: 13px;
+}
+.bottom_div_our_events button{
+    padding: 3px;
+    font-size: 7px;
+    width: 100px;
+}
+
 
 }
