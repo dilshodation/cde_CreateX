@@ -1211,7 +1211,11 @@ article a {
     }
 .ourbenefits nav a{
     font-size: 7px;
-    margin: 5px;
+    margin: 2px;
+}
+.ourbenefitsdivwords{
+    width: 200px;
+    height: 300px;
 }
 .ourbenefits nav{
     display: flex;
@@ -1235,7 +1239,7 @@ gap: 10px;
 .ourbenefitsdiv img{
     height: 200px;
     margin-top: -4px;
-    width: 30%;
+    width: 40%;
 }
 .our_events h4{
     font-size: 10px;
@@ -1370,5 +1374,54 @@ gap: 10px;
 .nav{
     gap: 90px;
 }
+.createx_school h4{
+    font-size: 10px;
+}
+.createx_school h3{
+    font-size: 15px;
+}
+.createx_school{
+    height: 180px;
+}
+.createx_school input{
+    padding: 7px;
+    width: 200px;
+}
+.subscribe{
+    padding: 5px
+}
+.subscribe button{
+    padding: 4px;
+    font-size: 6px;
+    width: 120px;
+}
+article{
+    height: 420px;
+    display: block;
+}
+article a {
+    font-size: 10px;
+    line-height: 25px;
 
+}
+.art_big_div{
+    gap: 20px;
+}
+.art_div1{
+    width: 150px;
+    /* margin: 2px; */
+}
+.art_big_div h4 {
+    font-size: 10px;
+}
+.art_big_div h5{
+    font-size: 8px;
+}
+.art_big_div h3{
+    font-size: 13px;
+}
+.art_divsss input{
+    padding: 4px;
+    width: 70px;
+}
 }
